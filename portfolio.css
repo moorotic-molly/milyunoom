@@ -1,0 +1,139 @@
+/* .box{
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    background: blue;
+    font-weight: bold;
+    color: white;
+}
+
+
+.relative{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background: rosybrown;
+}
+
+.container{
+    position: relative; /*기준점*/
+    /* width: 300px;
+    height: 200px;
+    border: 2px dashed #ffea2f;
+    margin-top: 30px;
+}
+
+.absolute{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.fixed{
+    position: fixed;
+    background: olive;
+
+}
+
+.sticky{
+    position: sticky;
+    background: teal;
+    margin-top: 20px;
+
+} */
+
+.nav{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #eee;
+    z-index: 10;
+}
+.nav-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(82, 117, 11);
+
+}
+
+/*히어로 섹션*/
+.hero{
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.hero-title{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.hero-text{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*프로젝트 섹션*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+}
+.work-card img{
+    height: 360px;
+    width: 100%;
+}
+.work-body h3{
+    font-size: 24px;
+    margin: 16px 0 0 0;
+}
+.work-card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.15s ease;
+}
+
+/*푸터 섹션*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.links {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    color: rgb(82, 117, 11);
+}
